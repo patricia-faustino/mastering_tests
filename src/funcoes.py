@@ -8,6 +8,11 @@ def divide(a, b):
         return None
     return a / b
 
+def division_with_treatment(a, b):
+    if b == 0:
+        raise ZeroDivisionError("Division by zero is not allowed")
+    return a / b
+
 def double_sum(numbers):
     return sum( x* 2 for x in numbers)
 
