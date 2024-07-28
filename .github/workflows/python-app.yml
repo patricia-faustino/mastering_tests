@@ -8,6 +8,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        path: ../
     - name: Set up Python 3.8
       uses: actions/setup-python@v5
       with:
@@ -19,3 +21,4 @@ jobs:
     - name: Run tests with pytests
       run: |
         pytest
+      working-directory: ../  
