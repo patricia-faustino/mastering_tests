@@ -1,5 +1,6 @@
 pytest==8.3.1
 pytest-cov==5.0.0
+pytest-asyncio==0.20.3
 sqlalchemy==2.0.16
 requests==2.31.0
 flask-sqlalchemy==3.1.1
