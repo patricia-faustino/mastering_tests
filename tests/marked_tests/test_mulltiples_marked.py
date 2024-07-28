@@ -1,5 +1,5 @@
 import pytest
-from src.funcoes import slow_sum
+from src.functions.basic_functions import slow_sum
 
 ## Comandos para executar os testes marcados
 ## python -m pytest -m slow 

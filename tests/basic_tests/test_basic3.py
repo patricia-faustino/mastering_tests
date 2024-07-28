@@ -1,4 +1,4 @@
-from src.funcoes import *
+from src.functions.basic_functions import *
 
 def test_email_is_valid():
     assert email_is_valid("exemplo@dominio.com") is True

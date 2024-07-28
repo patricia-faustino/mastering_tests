@@ -1,5 +1,5 @@
 import pytest
-from src.classify_age import classify_age
+from src.functions.classify_age import classify_age
 
 @pytest.mark.parametrize("age, expected_category", [
     (0, "Criança"),

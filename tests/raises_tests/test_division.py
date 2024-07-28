@@ -1,5 +1,5 @@
 import pytest
-from src.funcoes import division_with_treatment
+from src.functions.basic_functions  import division_with_treatment
 
 
 def test_division_with_treatment_with_error():

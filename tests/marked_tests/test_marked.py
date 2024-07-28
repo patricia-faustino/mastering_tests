@@ -1,6 +1,6 @@
 import pytest
 import time
-from src.funcoes import slow_sum, multiply
+from src.functions.basic_functions import slow_sum, multiply
 
 @pytest.mark.slow
 def test_slow_sum():

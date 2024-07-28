@@ -1,5 +1,5 @@
 import pytest
-from src.calculate_total import calculate_total
+from src.functions.calculate_total import calculate_total
 
 @pytest.mark.parametrize("price", [100, 200,300,400])
 @pytest.mark.parametrize("discount_rate", [0, 0.1, 0.2, 0.5])

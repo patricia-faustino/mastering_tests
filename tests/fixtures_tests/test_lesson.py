@@ -1,4 +1,4 @@
-from src.funcoes import double_sum
+from src.functions.basic_functions  import double_sum
 import pytest
 
 

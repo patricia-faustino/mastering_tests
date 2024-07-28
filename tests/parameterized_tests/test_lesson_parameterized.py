@@ -1,5 +1,5 @@
 import pytest
-from src.funcoes import fatorial
+from src.functions.basic_functions  import fatorial
 
 @pytest.mark.parametrize("number", [2,3,4,5,6,7,8,9,10])
 def test_fatorial_greater_than_zero(number):

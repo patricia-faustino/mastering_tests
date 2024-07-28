@@ -1,5 +1,5 @@
-from src.funcoes import sum_numbers
 import pytest
+from src.functions.basic_functions  import sum_numbers
 
 @pytest.mark.parametrize("a,b,expected",[
     (1,2,3),(10,20,30),(15,7,22),(14,28,42)])

@@ -1,5 +1,5 @@
 import pytest
-from src.classify_age import classify_age
+from src.functions.classify_age import classify_age
 
 @pytest.mark.child
 def test_classify_age_to_children():

@@ -1,5 +1,5 @@
 import pytest
-from src.verify_age import verify_age
+from src.functions.verify_age import verify_age
 
 
 def test_verify_age_with_error():
