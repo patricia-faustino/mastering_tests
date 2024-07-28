@@ -19,4 +19,4 @@ jobs:
     - name: Run tests with pytests
       run: |
         pytest
-      working-directory: ./src 
+      working-directory: ./tests 
